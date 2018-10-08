@@ -116,10 +116,10 @@ function toGrams() {
     var inputNumber = parseFloat(inputString) * 28.34952;
     outputElement.innerHTML = inputNumber.toString();
 }
-var ounceButton = document.getElementById("ounceButton");
-var gramButton = document.getElementById("gramButton");
-ounceButton.addEventListener("click", toOunces);
-gramButton.addEventListener("click", toGrams);
+var ouncesButton = document.getElementById("ounceButton");
+var gramsButton = document.getElementById("gramButton");
+ouncesButton.addEventListener("click", toOunces);
+gramsButton.addEventListener("click", toGrams);
 
 
 /***/ }),
